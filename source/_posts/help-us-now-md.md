@@ -16,4 +16,4 @@ author: shiptux
 
 - [我们的TG群组](https://t.me/linuxgamedotcn)
 
-- QQ群 欢迎加入 ![QQ](/source/img/2018/08/22/QQ.png)
+- QQ群 欢迎加入 ![QQ](help-us-now-md/QQ.png)
