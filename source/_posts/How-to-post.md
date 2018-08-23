@@ -2,7 +2,8 @@
 title: How-to-post
 date: 2018-08-22 22:28:29
 tags:
-
+categories: 教程 
+author: shiptux
 ---
 
 朋友你好，欢迎访问 Linux 游戏站博客网站。这里有一些喜欢 Linux 游戏的人，大家一起交流经验。暂时只有 Gamuxorg 的成员拥有投稿权限。
