@@ -94,3 +94,5 @@ tags:
  `git commit -m "update"`
 
  `git push origin hexo`
+
+- 或者   `hexo g -d && ./gitpush `
