@@ -79,17 +79,19 @@
 
 
 
-<meta name="description" content="Linux 游戏站 面向中文 Linux 游戏玩家">
+<meta name="description" content="朋友你好，欢迎访问 Linux 游戏站博客网站。这里有一些喜欢 Linux 游戏的人，大家一起交流经验。暂时只有 Gamuxorg 的成员拥有投稿权限。 本博客使用 Hexo 进行渲染，并托管于 Gitpages ，投稿前需要本地安装 Git  以及 Nodejs. ##准备工作">
 <meta property="og:type" content="article">
 <meta property="og:title" content="How-to-post">
 <meta property="og:url" content="http://yoursite.com/2018/08/22/How-to-post/index.html">
 <meta property="og:site_name" content="Linux 游戏站">
-<meta property="og:description" content="Linux 游戏站 面向中文 Linux 游戏玩家">
+<meta property="og:description" content="朋友你好，欢迎访问 Linux 游戏站博客网站。这里有一些喜欢 Linux 游戏的人，大家一起交流经验。暂时只有 Gamuxorg 的成员拥有投稿权限。 本博客使用 Hexo 进行渲染，并托管于 Gitpages ，投稿前需要本地安装 Git  以及 Nodejs. ##准备工作">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-08-22T14:28:29.707Z">
+<meta property="og:image" content="http://yoursite.com/2018/08/22/How-to-post/clone.png">
+<meta property="og:updated_time" content="2018-08-23T08:52:58.448Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="How-to-post">
-<meta name="twitter:description" content="Linux 游戏站 面向中文 Linux 游戏玩家">
+<meta name="twitter:description" content="朋友你好，欢迎访问 Linux 游戏站博客网站。这里有一些喜欢 Linux 游戏的人，大家一起交流经验。暂时只有 Gamuxorg 的成员拥有投稿权限。 本博客使用 Hexo 进行渲染，并托管于 Gitpages ，投稿前需要本地安装 Git  以及 Nodejs. ##准备工作">
+<meta name="twitter:image" content="http://yoursite.com/2018/08/22/How-to-post/clone.png">
 
 
 
@@ -329,7 +331,72 @@
       
 
       
-        
+        <p>朋友你好，欢迎访问 Linux 游戏站博客网站。这里有一些喜欢 Linux 游戏的人，大家一起交流经验。暂时只有 Gamuxorg 的成员拥有投稿权限。</p>
+<p>本博客使用 <code>Hexo</code> 进行渲染，并托管于 <code>Gitpages</code> ，投稿前需要本地安装 <code>Git</code>  以及 <code>Nodejs</code>.</p>
+<p>##准备工作</p>
+<a id="more"></a>
+<ol start="0">
+<li><p>暂时只有 Gamuxorg 的成员拥有投稿权限。</p>
+</li>
+<li><p>如果你的电脑上还没有安装 <code>Git</code> 以及 <code>nodejs</code> ，请先执行 <code>sudo apt install -y nodejs git</code> (笔者环境 Ubuntu 18.04)</p>
+</li>
+</ol>
+<ul>
+<li>cURL:</li>
+</ul>
+<p><code>$ curl https://raw.github.com/creationix/nvm/master/install.sh | sh</code></p>
+<ul>
+<li>Wget:</li>
+</ul>
+<p><code>$ wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh</code></p>
+<ol start="2">
+<li><p>访问项目地址 <a href="https://github.com/Gamuxorg/Gamuxorg.github.io" target="_blank" rel="noopener">https://github.com/Gamuxorg/Gamuxorg.github.io</a> 并 <code>clone</code> 仓库</p>
+<p>  <img src="/2018/08/22/How-to-post/clone.png" alt="clone"> 点击绿色按钮或者复制链接并在本地执行 </p>
+<p>  <code>git clone -b hexo https://github.com/Gamuxorg/Gamuxorg.github.io.git</code></p>
+<p> 这是因为 <code>Hexo</code> 渲染后文件在主分支，而源文件在 “Hexo” 分支 所以在获取文件时 需要注意</p>
+</li>
+<li><p>进入克隆到本地的目录 安装 <code>Hexo</code> 可以直接使用 <code>npm install</code> 命令 或者分步安装</p>
+</li>
+</ol>
+<h2 id="撰写你的文章"><a href="#撰写你的文章" class="headerlink" title="撰写你的文章"></a>撰写你的文章</h2><p>完成准备工作之后，你便可以专注于创作了。不管是心得体会，游戏推荐，或者翻译优秀的文章都可以，记得遵循原文作者的版权<br>。</p>
+<ul>
+<li><p>创建文章的方式</p>
+<p>  使用 <code>hexo new &quot;文章&quot;</code> 建立文章</p>
+<p>  直接在 <code>source/_post</code> 目录下建立 <code>Markdown</code> 类型文件</p>
+</li>
+<li><p>撰写文章</p>
+<p>  用你喜爱的编辑器编辑 <code>Markdown</code> 文件</p>
+<p>  记得开头添加类似以下内容</p>
+<hr>
+<p>layout: post<br>title: “欢迎加入 Stendhal 中文化工作”<br>date: 2018-8-22 20:10:01 +0800<br>categories: 征集 </p>
+<h2 id="author-shiptux"><a href="#author-shiptux" class="headerlink" title="author: shiptux"></a>author: shiptux</h2></li>
+<li><p>文章配图有两种添加方式 </p>
+<p>  添加到 <code>source/img/年/月/日</code>目录下 使用 `img/年/月/日/图片索引</p>
+<p>  如果是 使用 <code>hexo new &quot;文章&quot;</code> 建立的文章 则会在 <code>source/_post/</code> 产生于文章同名的文件夹 使用 <code>文章名/图片名</code> 格式索引 </p>
+</li>
+<li><p>在文章中添加阅读全文模式</p>
+<p>  这是摘要</p>
+<p>  #<!-- more --></p>
+<p>  这是全文</p>
+</li>
+<li><p>其他需要了解的</p>
+<p>  <a href="http://wowubuntu.com/markdown/basic.html" target="_blank" rel="noopener">MarkDown 排版的基本方法</a>。</p>
+<p>  <a href="https://github.com/mzlogin/chinese-copywriting-guidelines" target="_blank" rel="noopener">中文文案排版指北</a>。</p>
+<p>  <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo官方文档</a> </p>
+</li>
+</ul>
+<p>##完成投稿并上传源文件</p>
+<ul>
+<li><p>当你撰写完文章时 使用 <code>hexo generate --deploy</code> 或者 <code>hexo deploy --generated</code> 可以简写 <code>hexo g -d</code> 相关的配置已经于 <code>_config.yml</code></p>
+</li>
+<li><p>上传关于本地的内容变化到 <code>Hexo</code> 分支上</p>
+<p><code>git pull origin hexo:hexo</code></p>
+<p><code>git add .</code></p>
+<p><code>git commit -m &quot;update&quot;</code></p>
+<p><code>git push origin hexo</code></p>
+</li>
+</ul>
+
       
     </div>
     
@@ -413,8 +480,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -481,6 +557,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#撰写你的文章"><span class="nav-number">1.</span> <span class="nav-text">撰写你的文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#author-shiptux"><span class="nav-number">2.</span> <span class="nav-text">author: shiptux</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
