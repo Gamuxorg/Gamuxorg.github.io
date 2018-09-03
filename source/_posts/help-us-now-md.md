@@ -6,6 +6,7 @@ categories: 征集
 author: shiptux
 ---
 
+author: shiptux
 朋友你好！ 欢迎访问 Linux 游戏站的博客。这里有一群喜欢 Linux 开源以及游戏的人们，欢迎一起交流经验。
 
 最近我们正在进行 Stendhal 这个游戏的汉化， Stendhal 是一个多人在线冒险游戏， 他有着像素的画风，游戏内容包含了打怪升级、武器练制、交易、组队、宠物等morpg要素。
