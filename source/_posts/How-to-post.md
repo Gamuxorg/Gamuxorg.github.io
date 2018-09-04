@@ -5,7 +5,6 @@ tags:
 categories: 教程 
 author: shiptux
 ---
-author: licheng
 朋友你好，欢迎访问 Linux 游戏站博客网站。这里有一些喜欢 Linux 游戏的人，大家一起交流经验。暂时只有 Gamuxorg 的成员拥有投稿权限。
 
 本博客使用 `Hexo` 进行渲染，并托管于 `Gitpages` ，投稿前需要本地安装 `Git`  以及 `Nodejs`.
